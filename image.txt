@@ -1,0 +1,9 @@
+<html>
+<head>
+	<title>graphical hyperlink</title>
+</head>
+<body bgcolor="pink">
+<h1 align="center>graphical hyperlink</h1>
+here is the image with<i> graphical hyper link</i></h1>
+<A Href= "https://www.wikipedia.org">
+<img src=
