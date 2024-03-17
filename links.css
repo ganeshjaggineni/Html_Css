@@ -1,0 +1,14 @@
+#click{
+    color:palevioletred;
+    
+}
+#link{
+    color:pink;
+}
+#link :hover{
+    color:brown;
+}
+#link: visited{
+    color:blueviolet;
+    text-decoration: dashed;
+}

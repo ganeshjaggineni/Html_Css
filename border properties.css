@@ -1,0 +1,23 @@
+#solid{
+    border-style:solid;
+    border-width:25px;
+    border-color:aqua
+}
+#dotted{
+    border-style:dotted;
+    border-width:10px;
+    border-color:rgb(200,150,56)
+}
+.double{
+    border-style:double;
+    border-width:20px;
+    border-color:#126584
+}
+.dashed{
+    border-style:dashed;
+    border-width:10px;
+    border-color:#145325
+}
+.groove{
+    border0
+}

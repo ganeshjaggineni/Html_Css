@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <title>DOM MANIPULATION IN JAVA SCRIPT CSS</title>
+    <style>
+        #head3{
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <h3 id="head3">
+    GANESH JAGGINENI
+</h3>
+</br>
+    <input type="button"  value="click_me" id="but" onclick="change()">
+    <img src="codeimages/forest.png" id="img1">
+    <form>
+        NAME:<br>
+        <input type="text" id="formm" value="Enter name">
+    </form>
+   
+
+    <script>
+        function change()
+        {
+        let test=document.getElementById("head3");
+        test.style.color="pink";
+        window.alert("gani");
+        test.style.backgroundColor="green";
+        window.alert(test.getAttribute("id"))
+        let imgg=document.getElementById("img1");
+        imgg.style.widht="100px";
+        imgg.style.height="100px";
+        imgg.style.borderColor="yellow";
+
+        // var x=document.getElementById("formm");
+        // console.log(x.getAttribute("value"))
+        // x.setAttribute("value","ganesh");
+        // window.alert(x.getAttrubute("value"))
+
+        var num=window.prompt("enter number");
+        window.alert(num*num);
+        console.log(typeof num);
+
+        var conf=window.confirm("is ganesh is your name?");
+        if (conf)
+        {
+            window.alert("ganesh jaggineni created this web page");
+        }
+        else
+        {
+            window.alert("baduko why are you open this web page");
+        }
+        
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+#img{
+    width:100vh;
+    height:100vh;
+    background-image:url("forest.jfif");
+    background-repeat:no-repeat;
+    background-size:cover;
+    border:3px solid blue;
+
+}

@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>NAV BAR</title>
+
+        <style>
+            *{
+                margin:0px;
+                padding:0px;
+
+            }
+            ul li{
+               float:left;
+               list-style-type:none;
+               
+
+            }
+
+            ul li a{
+                display:block;
+                gap:15px;
+                text-decoration: none;
+                font-size: 20px;
+                color:pink;
+                text-align:center;
+                padding:10px 20px;
+            }
+            #navbar{
+                
+                
+                background-color:green;
+                width: 100%
+            }
+
+            #default
+            {
+                color:blue;
+            }
+            ul li{
+               background-color:gray;
+               border-right:solid;
+               border-right-color:green;
+               outline:2px dashed blue;
+              
+               
+               
+            }
+            ul li a:hover{
+                background-color:aqua;
+                color:red;
+                transform:scale(1.2);
+                animation:animate 5s linear;
+               
+            }
+
+            @keyframes animate{
+                0%{
+                    border-top-style: dashed;
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+
+        
+            <ul>
+                <li ><a id="default" href="#">HOME</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">ADDRESS</a></li>
+                <li><a href="#">DATA</a></li>
+            </ul>
+        </div>
+    </body>
+</html>

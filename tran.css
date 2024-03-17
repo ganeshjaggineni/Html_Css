@@ -1,0 +1,16 @@
+#gan{
+    color:green;
+    background-color:cadetblue;
+    width:100px;
+    height:200px;
+    border:dashed;
+    border-color:pink;
+    text-decoration:none;
+}
+#gan:hover{
+    color:"yellow"
+}
+div{
+    height:400px;
+    width:300px;
+}

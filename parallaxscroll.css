@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    overflow-x:hidden;
+    background:#fff;
+    min-height:100vh;
+}
+#header{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    /* background-color:rgb(106, 179, 207); */
+    border:dotted;
+    padding:30px 100px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+#header .logo{
+    color:pink;
+    text-decoration: none;
+    font-weight: 800;
+    font-size:23px;
+}
+
+#header ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#header ul li{
+    list-style:none;
+    margin-left:20px;
+}
+
+#header ul li a{
+    text-decoration: none;
+    padding:6px 15px;
+    color:green;
+}
+
+#header ul li a:hover{
+    background-color: rgb(174, 203, 45);
+    border-radius: 30px;
+    color:rgb(237, 30, 61);
+}
+ 
+section{
+    position:relative;
+    width:100%;
+    min-height:100vh;
+    /* background-color: green; */
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+section #text{
+    position:absolute;
+    font-size:10vw;
+    color:rgb(45, 101, 98);
+    text-align:center;
+    line-height: 0.75em;
+    font-family:'Rancho',cursive;
+
+}
+section #text span{
+    font-size:0.40em;
+    letter-spacing: 2px;
+    font-weight:500;
+}  

@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>
+            DOM MANIPULATION IN JAVA SCRIPT USAGAE
+        </title>
+
+    </head>
+
+    <body>
+        <div id="first">
+            <p>
+                this is first paragraph in divison 1
+            </p>
+
+            <p>
+                this is second paragraph in divison 1
+            </p>
+        </div>
+
+        <div id="second">
+            <p>
+                this is first paragraph in divison 2
+            </p>
+
+            <p id="seco">
+                this is second paragraph in divison 2
+            </p>
+        </div>
+    </body>
+
+
+
+
+
+         <script>
+            var n=document.createElement("p");
+            n.innerText="this is 3rd para in div1"
+            // var fir=document.getElementById("first");
+           
+            var par=document.getElementById("second");
+            var sec=document.getElementById("seco");
+            par.insertBefore(n,sec);
+            sec.replaceChild()
+            // alert(n);
+            // console.log(fir);
+            // console.log(n);
+            // console.log(fir.innerHTML);
+            // console.log(fir.innerText)
+         </script>
+
+
+
+
+
+
+
+
+</html>

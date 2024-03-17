@@ -1,0 +1,36 @@
+body{
+    margin:0px;
+ 
+    overflow:hidden;
+    background-color:rgb(170, 255, 0);
+   
+}
+.box{
+    width:200px;
+    height:250px;
+    position:fixed;
+    border-color:violet red goldenrod darkcyan;
+    top:30px;
+    left:30px;
+    border-style:solid;
+    box-shadow:0px 0px 6px;
+    /* background-color: darkgoldenrod; */
+    background-image:url("ganesh.jpg");
+    background-repeat: no-repeat;
+
+    animation:imgtrans 8s infinite;
+}
+
+@keyframes imgtrans{
+ 
+    50%{
+  
+        background-image:url("eswar.jpg");
+        transform:rotate(360deg);
+        background-repeat:no-repeat;
+        background-color:darkslategrey darkorchid cadetblue fuchsia;
+        left :calc(50vw);
+    }
+}
+    
+    

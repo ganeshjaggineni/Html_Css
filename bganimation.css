@@ -1,0 +1,115 @@
+body{
+    margin:0px;
+}
+
+#bg {
+        position:relative;
+        background:linear-gradient(green,pink,blue,rgb(107, 164, 189),#ddda22,hsl(306, 49%, 62%),rgb(72, 20, 20) );
+       height :100vh;
+       /* width:100vw; */
+       border:2px dotted pink;
+
+
+}
+#bg h1{
+    position:relative;
+    font-size:25px;
+    color:blue;
+    top:50%;
+    left:50%;
+    animation:anim 5s infinite;
+}
+
+#bg  ul li{
+    position:absolute;
+    border : 2px solid #005380;
+    position:absolute;
+    height:30px;
+    width:30px;
+    list-style:none;
+    background-color:purple;
+   
+    
+}
+#square li{
+    top:20%;
+    left:10%;
+    animation:square 6s infinite;
+    
+}
+#square li:nth-child(2){
+    top:50%;
+    left:20%;
+    animation-delay:3s;
+    background-color:#005c80;
+}
+#square li:nth-child(3){
+    top:70%;
+    left:10%;   
+    animation-delay:2s;
+    background-color:#c5bbc5;
+
+}
+#square li:nth-child(4){
+    top:45%;
+    left:70%;
+    animation-delay:3s;
+    background-color:#230b23;
+
+}
+#square li:nth-child(5){
+    top:75%;
+    left:60%;   
+    animation-delay:2s;
+    background-color:rgb(144, 197, 65);
+
+}
+#square li:nth-child(6){
+    top:15%;
+    left:55%; 
+    background-color:rgb(112, 142, 156);  
+}
+
+@keyframes square{
+    0%{
+        transform:scale(0) rotatey(0);
+        opacity:1;
+        
+    }
+    100%{
+        transform: scale(3) rotatey(1000deg);
+        opacity:0;
+        
+    }
+}
+
+@keyframes anim{
+    10%{
+        color:rgb(85, 133, 115);
+        font-size: 4px;
+        text-transform:lowercase;
+    }
+    30%{
+        color:rgb(127, 70, 150);
+        }
+    50%{
+            color:rgb(170, 239, 68);
+            font-size: 45px;
+            text-decoration:underline;
+            text-transform:capitalize;
+            
+        }
+    70%{
+            color:rgb(196, 122, 53);
+            text-decoration-color: aqua;
+            text-shadow: #102026;
+            
+      }
+    100%{
+        color:rgb(138, 150, 70);
+        text-decoration-color: rgb(255, 0, 208);
+
+     }
+
+}
+

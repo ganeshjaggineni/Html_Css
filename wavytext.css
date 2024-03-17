@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:100vh;
+    background-color:blueviolet
+
+}
+
+input{
+    border:1px solid green;
+    border-radius:20px;
+    outline:none; 
+                  /* to make the input box to prevent black line when focus */
+}
+
+input:focus{
+    box-shadow:0px 0px 10px rgba(0,0,0,0.3);
+    background-color: pink;
+}
+.wavy{
+    animation :wavy 1.5s ease infinite;
+}
+
+@keyframes wavy{
+    position : relative;  /*by default all html elements have static value */
+    0%{
+        top:0px;
+    }
+    50%{
+        top:20px;
+    }
+    100%{
+        top:0px;
+    }
+}

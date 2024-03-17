@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>
+            EVENTS IN JAVASCRIPT
+        </title>
+    </head>
+
+    <body>
+        <button id="but">BUTTON</button>
+        <!-- <button id="butn">BUTTON</button> -->
+    </body>
+    <script>
+           
+
+        let x=document.getElementById("but");
+        x.onclick=change;
+       
+
+        function change()
+        {
+           let letters="0123456789ABCDEF";
+           let color="#";
+           for(var i=0;i<6;i++)
+           {
+            ind=Math.floor(Math.random()*16);
+            color=color+letters[ind];
+           }
+           
+          console.log(color);
+           document.body.style.backgroundColor=color;
+        }
+
+
+        // var y=document.getElementById("butn");
+       
+        // y.addEventListener('click',changecol);
+
+        // function changecol()
+        // {
+        //     document.body.style.backgroundColor="pink";
+        // }
+    </script>
+</html>

@@ -1,0 +1,35 @@
+h1{
+    height:100px;
+    width:150px;
+    background-color: aqua;
+    color:darkkhaki;
+}
+h1:hover{
+    width:200px;
+    /* height:500px; */
+    border-style:double;
+    border-color:green;
+    background-color: brown;
+    border-radius:20px;
+    text-align:center;
+    padding:40px;
+    text-decoration:underline;
+    text-transform:uppercase;
+    background-image:liner-gradient(pink,blue);
+    color:red;
+    transition-property:inherit;
+}
+#touch-me:hover{
+    background-image:url("C:\\Users\\ganes\\Pictures\\Camera Roll\\WIN_20220314_22_03_30_Pro.jpg");
+
+    background-repeat:no-repeat;
+    width:1000px;
+    height:500px;
+}
+p::first-letter{
+    display:block;
+    float:center;
+    margin:3px;
+    font-size:80px;
+    color: blue;
+}

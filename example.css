@@ -1,0 +1,16 @@
+body{
+    background-image: url("C:\\Users\\ganes\\Desktop\\micky.jpg");
+    background-position : right top;
+    background-repeat:no-repeat;
+    background-color:rgba(189, 237, 118,0.4);
+}
+
+#title{
+    color:aqua;
+}
+
+#ga{
+    color:#d328ed;
+    
+    
+}

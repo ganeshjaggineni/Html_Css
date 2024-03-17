@@ -1,0 +1,60 @@
+<html> 
+    <head>
+        <title>
+            DOM MANIPULATION IN JAVASCRIPT
+        </title>
+
+        <style>
+            #but{
+                color:blue;
+            }
+        </style>
+    </head>
+        <body>
+            <h2 id="heading">DOM IN JAVASCRIPT</h2>
+            <form>
+                Enter num:
+                <input type="text" id="number">
+                <br>
+                <input type="button" value="find cube" onclick="getcube()">
+            </form>
+
+            <h2 id="head2">form fill</h2>
+            <form name="ganeshform">
+                ENTER NAME :
+                <input type="text" name="urname">
+                <br>
+                <input type="button" value="print"  onmousemove="printname()">
+
+            </form>
+
+            <img src="codeimages/off.png" id="off">
+            <input type="button" value="click to turn on" id="but" widhth="20px" height="20px" onclick="bulb()">
+        
+        <script>
+            function getcube()
+            {
+                var num=document.getElementById("number").value;
+                window.alert("the cube of "+num+" is "+num*num*num);
+            }
+
+            function printname()
+            {
+                var nam=document.ganeshform.urname.value;
+                window.alert("your name is "+nam);
+                
+            }
+            document.getElementById("head2").innerHTML="ganesh";
+            function bulb()
+            {
+            document.getElementById("off").src="codeimages/on.png";
+            document.getElementById("but").style.color="pink";
+            document.getElementById("but").style.backgroundColor="green";
+            }
+           
+        </script>
+
+        </body>
+   
+
+</html>
